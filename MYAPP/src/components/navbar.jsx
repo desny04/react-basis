@@ -12,6 +12,7 @@ function Navbar(props){
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
+        
     );
 }
 
