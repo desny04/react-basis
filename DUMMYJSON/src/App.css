@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    gap: 28%;
+    background-color: rgba(45, 0, 38, 0.856);
+    height: 120px;
+}
+
+.head{
+    color: white;
+    padding-top: 35px;
+}
+
+.search-bar{
+    padding-top: 35px;
+}
+
+.search-bar input{
+    width: 400px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: none;
+    color:rgba(45, 0, 38, 0.856);
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search-bar ::placeholder{
+   color:rgba(45, 0, 38, 0.856);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: medium;
+}
+
+.login{
+    padding-top: 30px;
+}
+
+.login button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color:rgba(45, 0, 38, 0.856);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.main-cards{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    width: 100%;
+    min-height: 90vh;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card{
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px black;
+}
+
+.image img{
+    height: 150px;
+    width:250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.item-name{
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.category{
+    padding-top: 20px;
+}
+
+.category button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(218, 141, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.price{
+    padding-top: 20px;
+}

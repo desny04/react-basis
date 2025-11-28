@@ -1,0 +1,64 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.login-card{
+  box-shadow: 1px 1px 1px 2px black;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+.head{
+  padding-top: 10px;
+  font-size: x-large;
+}
+
+.username{
+  padding-top: 15px;
+}
+
+.username input{
+  width: 250px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.pwd{
+  padding-top: 25px;
+}
+
+.pwd input{
+  width: 250px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.forget{
+  font-size: x-small;
+  text-align: end;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.login-btn{
+  padding-top: 20px;
+}
+
+.login-btn button{
+  width: 250px;
+  background-color: rgb(61, 55, 178);
+}
+
+.create{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: small;
+}
